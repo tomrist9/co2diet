@@ -27,7 +27,7 @@ The application helps users:
 * Offline-first
 * Fast and simple daily food logging
 * Scientifically grounded nutrition and CO2 estimation
-* Non-judgmental and supportive user experience
+* Non-judgemental and supportive user experience
 
 ## Backend Responsibility
 
