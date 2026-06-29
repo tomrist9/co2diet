@@ -23,6 +23,7 @@ class CatalogService implements CatalogQuery {
 
     @Override
     public Optional<Food> byId(long id) {
+
         return repo.findById(id).map(FoodProductEntity::toDomain);
     }
 
