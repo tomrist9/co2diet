@@ -29,7 +29,7 @@
         <module>shared</module>
         <module>catalog</module>
                 <module>catalog</module>
-<!--        <module>app</module>-->
+        <module>app</module>
     </modules>
 
     <dependencyManagement>
