@@ -27,6 +27,15 @@ public class FoodProductEntity {
     protected FoodProductEntity() {
 
     }
+    FoodProductEntity(Long id, String barcode, String name, String brand,
+                      String categoryCode, long rowVersion) {
+        this.id = id;
+        this.barcode = barcode;
+        this.name = name;
+        this.brand = brand;
+        this.categoryCode = categoryCode;
+        this.rowVersion = rowVersion;
+    }
 
     public Food toDomain() {
 
