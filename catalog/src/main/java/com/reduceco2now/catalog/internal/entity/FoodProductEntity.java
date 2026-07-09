@@ -2,10 +2,7 @@ package com.reduceco2now.catalog.internal.entity;
 
 import com.reduceco2now.catalog.Food;
 import com.reduceco2now.catalog.FoodUpsert;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 
 @Entity
@@ -13,6 +10,8 @@ import jakarta.persistence.Table;
 public class FoodProductEntity {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "food_product_seq")
+    @SequenceGenerator(name = "food_product_seq", sequenceName = "food_product_id_seq", allocationSize = 1)
     private Long id;
 
     private String barcode;
