@@ -1,6 +1,7 @@
 package com.reduceco2now.catalog.internal.entity;
 
 import com.reduceco2now.catalog.Food;
+import com.reduceco2now.catalog.FoodUpsert;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -40,5 +41,24 @@ public class FoodProductEntity {
     public Food toDomain() {
 
         return new Food(id, barcode, name, brand, categoryCode, rowVersion);
+    }
+
+
+    static FoodProductEntity newFrom(FoodUpsert u) {
+        FoodProductEntity e = new FoodProductEntity();
+        e.barcode = u.barcode();
+        e.name = u.name();
+        e.brand = u.brand();
+        e.categoryCode = u.categoryCode();
+        e.rowVersion = 1L;
+        return e;
+    }
+
+    FoodProductEntity updateFrom(FoodUpsert u) {
+        this.name = u.name();
+        this.brand = u.brand();
+        this.categoryCode = u.categoryCode();
+        this.rowVersion += 1;
+        return this;
     }
 }
