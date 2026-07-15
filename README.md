@@ -112,6 +112,7 @@ This structure keeps the MVP simple while allowing future migration to microserv
 * Spring Web
 * Spring Data JPA
 * Spring Security
+* Keycloak
 * PostgreSQL
 * Flyway or Liquibase
 * MapStruct
