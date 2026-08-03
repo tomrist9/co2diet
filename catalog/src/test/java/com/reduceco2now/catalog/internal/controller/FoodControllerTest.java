@@ -1,4 +1,4 @@
-package com.reduceco2now.catalog.internal.controller;
+package com.reduceco2now.catalog;
 
 import com.reduceco2now.catalog.CatalogQuery;
 import org.junit.jupiter.api.Test;
@@ -22,7 +22,7 @@ class FoodControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
-    @MockBean
+    @org.springframework.test.context.bean.override.mockito.MockitoBean
     private CatalogQuery catalog;
 
     @Test

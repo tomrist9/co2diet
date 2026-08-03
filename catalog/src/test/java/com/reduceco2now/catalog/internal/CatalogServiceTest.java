@@ -1,8 +1,8 @@
-package com.reduceco2now.catalog.internal;
+package com.reduceco2now.catalog;
 
 import com.reduceco2now.catalog.Food;
-import com.reduceco2now.catalog.internal.entity.FoodProductEntity;
-import com.reduceco2now.catalog.internal.repository.FoodProductRepository;
+import com.reduceco2now.catalog.FoodProductEntity;
+import com.reduceco2now.catalog.FoodProductRepository;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import static org.mockito.Mockito.verify;
