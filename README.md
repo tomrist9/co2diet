@@ -107,11 +107,12 @@ This structure keeps the MVP simple while allowing future migration to microserv
 
 ## Tech Stack
 
-* Java 17+
+* Java 21
 * Spring Boot
 * Spring Web
 * Spring Data JPA
 * Spring Security
+* Keycloak
 * PostgreSQL
 * Flyway or Liquibase
 * MapStruct

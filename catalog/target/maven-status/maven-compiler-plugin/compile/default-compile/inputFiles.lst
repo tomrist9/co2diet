@@ -1,0 +1,9 @@
+/Users/vitsmart/co2diet/catalog/src/main/java/com/reduceco2now/catalog/CatalogApplication.java
+/Users/vitsmart/co2diet/catalog/src/main/java/com/reduceco2now/catalog/CatalogCommand.java
+/Users/vitsmart/co2diet/catalog/src/main/java/com/reduceco2now/catalog/CatalogQuery.java
+/Users/vitsmart/co2diet/catalog/src/main/java/com/reduceco2now/catalog/CatalogService.java
+/Users/vitsmart/co2diet/catalog/src/main/java/com/reduceco2now/catalog/Food.java
+/Users/vitsmart/co2diet/catalog/src/main/java/com/reduceco2now/catalog/FoodController.java
+/Users/vitsmart/co2diet/catalog/src/main/java/com/reduceco2now/catalog/FoodProductEntity.java
+/Users/vitsmart/co2diet/catalog/src/main/java/com/reduceco2now/catalog/FoodProductRepository.java
+/Users/vitsmart/co2diet/catalog/src/main/java/com/reduceco2now/catalog/FoodUpsert.java

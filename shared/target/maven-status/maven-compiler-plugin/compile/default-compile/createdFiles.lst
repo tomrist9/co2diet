@@ -1,0 +1,3 @@
+com/reduceco2now/shared/error/DomainException.class
+com/reduceco2now/shared/web/ApiError.class
+com/reduceco2now/shared/error/NotFoundException.class

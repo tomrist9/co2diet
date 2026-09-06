@@ -1,0 +1,9 @@
+com/reduceco2now/catalog/FoodUpsert.class
+com/reduceco2now/catalog/FoodProductEntity.class
+com/reduceco2now/catalog/CatalogQuery.class
+com/reduceco2now/catalog/CatalogCommand.class
+com/reduceco2now/catalog/CatalogApplication.class
+com/reduceco2now/catalog/CatalogService.class
+com/reduceco2now/catalog/FoodController.class
+com/reduceco2now/catalog/Food.class
+com/reduceco2now/catalog/FoodProductRepository.class
